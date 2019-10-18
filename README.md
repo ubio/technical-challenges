@@ -27,7 +27,7 @@ The service should expose the following endpoints:
     - the request body must be in JSON format and can specify meta information that will be attached to the instance
     - returns JSON with following structure:
 
-        ```json
+        ```js
         {
             "id": "e335175a-eace-4a74-b99c-c6466b6afadd", // echoed from path parameter
             "group": "particle-detector", // echoed from path parameter
@@ -49,7 +49,7 @@ The service should expose the following endpoints:
 
     - returns a JSON array containing a summary of all currently registered groups as follows:
 
-        ```json
+        ```js
         [
             {
                 "group": "particle-detector",
@@ -67,7 +67,7 @@ The service should expose the following endpoints:
 
     - returns a JSON array describing instances of the `group`:
 
-        ```json
+        ```js
         [
             {
                 "id": "e335175a-eace-4a74-b99c-c6466b6afadd",
