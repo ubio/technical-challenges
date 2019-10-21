@@ -41,7 +41,7 @@ The service should expose the following endpoints:
 
 - `DELETE /:group/:id`
 
-    - unregisters an application instance
+    - unregisters an application instance
     - does not accept request body
     - returns 204 with no content, even if instance does not exist
 
