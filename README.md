@@ -41,7 +41,7 @@ The service should expose the following endpoints:
 
 - `DELETE /:group/:id`
 
-    — unregisters an application instance
+    - unregisters an application instance
     - does not accept request body
     - returns 204 with no content, even if instance does not exist
 
@@ -92,7 +92,7 @@ The service should include a background task that will periodically remove expir
 - TypeScript with `strict: true` is strongly encouraged, but not 100% required.
 - Unless something is explicitly stated in Spec, you are free to choose how to approach the specifics. Don't forget to document important implementation decisions.
     - Feel free to challenge the spec if something does not add up, or can be done more elegantly and/or efficiently. We appreciate the ability to work with the requirements.
-- This is a fairly simple task, so it should not take more than few ours for you to implement the base functionality. However, we expect you to spend some time with polishing, refactoring and testing.
+- This is a fairly simple task, so it should not take more than few hours for you to implement the base functionality. However, we expect you to spend some time with polishing, refactoring and testing.
 - Try to limit the usage of "utility belts" (underscore, lodash, ramda); instead prefer latest ECMAScript features.
 - Feel free to use latest Node version (we don't like legacy either!)
 
