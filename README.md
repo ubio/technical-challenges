@@ -31,8 +31,8 @@ The service should expose the following endpoints:
         {
             "id": "e335175a-eace-4a74-b99c-c6466b6afadd", // echoed from path parameter
             "group": "particle-detector", // echoed from path parameter
-            "createdAt": "1571418096158", // timestamp of the first registered heartbeat of this instance
-            "updatedAt": "1571418124127", // timestamp of the last registered heartbeat of this instance
+            "createdAt": 1571418096158, // timestamp of the first registered heartbeat of this instance
+            "updatedAt": 1571418124127, // timestamp of the last registered heartbeat of this instance
             "meta": {   // echoed from request body
                 "foo": 1
             }
@@ -54,8 +54,8 @@ The service should expose the following endpoints:
             {
                 "group": "particle-detector",
                 "instances": 4, // the number of registered instances in this group
-                "createdAt": "1571418124127", // the timestamp of the first heartbeat registered in this group
-                "lastUpdatedAt": "1571418124127", // the timestamp of the last heartbeat registerd in this group
+                "createdAt": 1571418124127, // the timestamp of the first heartbeat registered in this group
+                "lastUpdatedAt": 1571418124127, // the timestamp of the last heartbeat registerd in this group
             },
             // ...
         ]
@@ -72,8 +72,8 @@ The service should expose the following endpoints:
             {
                 "id": "e335175a-eace-4a74-b99c-c6466b6afadd",
                 "group": "particle-detector",
-                "createdAt": "1571418096158",
-                "updatedAt": "1571418124127",
+                "createdAt": 1571418096158,
+                "updatedAt": 1571418124127,
                 "meta": {
                     "foo": 1
                 }
