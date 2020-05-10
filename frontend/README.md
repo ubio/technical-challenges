@@ -6,7 +6,7 @@ We are excited about you considering to join our engineering team.
 
 Below you will find a technical test that will help us understand your ability to write clean concise code, which is easy to reason about, maintain and support. We are also keen on seeing your approach to naming (because we know how hard naming is!) and structuring the entities around your codebase, as well as testing and documenting them.
 
-Good luck, and looking forward to receiving your code.
+Good luck! We are looking forward to receiving your code.
 
 ## Spec
 
@@ -32,7 +32,7 @@ The state for both filters and ordering should be kept if a user navigates away 
 
 ### History
 
-The user should be able to see a list of all queries made, with an indication of time and results returned.
+The user should be able to see a list of all queries made, with an indication of when it happened and how many results were returned.
 
 
 ## Our expectations
