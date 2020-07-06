@@ -10,7 +10,7 @@ Good luck, and looking forward to welcome you aboard.
 
 ## Spec
 
-Implement a RESTful discovery service.
+Implement a RESTful horizontally scalable discovery service.
 
 The idea is simple: a number of different client applications will periodically send heartbeats to this service, and the service keeps track of them, periodically removing those that didn't send any heartbeats in some configured time frame.
 
