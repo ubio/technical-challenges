@@ -85,9 +85,10 @@ The service should periodically remove expired instances. The "age" of the most 
 
 - A service should be implemented in Node.js, with README containing steps to get it up and running.
 - TypeScript with `strict: true` is strongly encouraged, but not 100% required.
-- Unless something is explicitly stated in Spec, you are free to choose how to approach the specifics. Don't forget to document important implementation decisions.
-    - Feel free to challenge the spec if something does not add up, or can be done more elegantly and/or efficiently. We appreciate the ability to work with the requirements.
-- We expect you to spend some time with polishing, refactoring and covering codebase with tests.
+- Unless something is explicitly stated in Spec, please choose how to approach the specifics.
+    - If some use cases are missing in Spec but important, please do cover them in your solution as well. Don't forget to document important implementation decisions.
+    - Feel free to challenge the Spec if something does not add up, or can be done more elegantly and/or efficiently. We appreciate the ability to work with the requirements.
+- We expect you to spend some time with polishing, refactoring and covering codebase with tests. Providing solution fast is not as important as showing off your best.
 - Try to limit the usage of "utility belts" (underscore, lodash, ramda); instead prefer latest ECMAScript features.
 - Feel free to use latest Node version (we don't like legacy either!)
 
