@@ -88,7 +88,6 @@ The service should periodically remove expired instances. The "age" of the most 
 - Unless something is explicitly stated in Spec, please choose how to approach the specifics.
     - If some use cases are missing in Spec but important, please do cover them in your solution as well. Don't forget to document important implementation decisions.
     - Feel free to challenge the Spec if something does not add up, or can be done more elegantly and/or efficiently. We appreciate the ability to work with the requirements.
-- Try to limit the usage of "utility belts" (underscore, lodash, ramda); instead prefer latest ECMAScript features.
 - Feel free to use latest Node version (we don't like legacy either!)
 
 ## Submitting solution
