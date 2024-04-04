@@ -10,7 +10,7 @@ Good luck, and looking forward to welcome you aboard.
 
 ## Spec
 
-Implement a RESTful horizontally scalable discovery service.
+Implement a RESTful horizontally scalable discovery service using our backend framework [Node Framework](https://github.com/ubio/node-framework).
 
 The idea is simple: a number of different client applications will periodically send heartbeats to this service, and the service keeps track of them, periodically removing those that didn't send any heartbeats in some configured time frame.
 
@@ -79,7 +79,7 @@ The service should expose the following endpoints:
         ]
         ```
 
-The service should periodically remove expired instances. The "age" of the most recent heartbeat of an instance to be considered expired should be configurable with environment variable and have a sensible default value.
+The service should periodically remove expired instances. The "age" of the most recent heartbeat of an instance to be considered expired should be configurable with an environment variable and have a sensible default value.
 
 ## Our expectations
 
@@ -88,7 +88,8 @@ The service should periodically remove expired instances. The "age" of the most 
 - Unless something is explicitly stated in Spec, please choose how to approach the specifics.
     - If some use cases are missing in Spec but important, please do cover them in your solution as well. Don't forget to document important implementation decisions.
     - Feel free to challenge the Spec if something does not add up, or can be done more elegantly and/or efficiently. We appreciate the ability to work with the requirements.
-- Feel free to use latest Node version (we don't like legacy either!)
+- Feel free to use the latest Node version (we don't like legacy either!)
+
 
 ## Submitting solution
 
